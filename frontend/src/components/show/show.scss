@@ -1,0 +1,45 @@
+.show_user {
+  .chart_header {
+    padding-left: 130px;
+  }
+}
+.chart {
+  position: relative;
+  height: 350px;
+  width: 800px;
+  padding-left: 130px;
+}
+
+.user_name_link {
+  color: #3A80BA;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 32px;
+  color: #1A1A1A;
+  margin-left: 130px;
+}
+
+
+
+.footer_user {
+  display: flex;
+  background: #1C3B55;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #FFFFFF;
+
+  .logo {
+    padding-left: 130px;
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .copyright {
+    padding-right: 130px;
+  }
+}

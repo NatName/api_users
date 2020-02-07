@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&display=swap');
+
+.header_user {
+  font-weight: bold;
+  font-size: 32px;
+  color: #1A1A1A;
+  margin-left: 130px;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  margin: 16px 130px;
+  a {
+    font-weight: normal;
+    font-size: 16px;
+    color: #CCCCCC;
+  }
+  .users_statistic {
+    color: #3A80BA;
+  }
+}
+
+.header_AppCo {
+  background: #3A80BA;
+  color: #FFFFFF;
+  padding : 12px 130px;
+  font-weight: normal;
+  font-size: 40px;
+  p {
+    margin: 0;
+  }
+}
+
+.list_users {
+  font-family: Montserrat;
+  text-align: center;
+  font-weight: normal;
+  font-size: 16px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  button {
+    margin-top: 24px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #F1F1F1;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+  }
+
+  button:first-child,
+  button:last-child, {
+    font-size: 20px;
+    border: none;
+    background: none;
+  }
+
+  .currentButton {
+    background: #3A80BA;
+    color: #FFFFFF;
+  }
+
+  table {
+    width: 1300px;
+    height: 480px;
+    border-collapse: collapse;
+    thead {
+      background: #3A80BA;
+      text-align: center;
+      td {
+        color: #FFFFFF;
+        padding: 15px 20px;
+        &:not(:last-child) {
+          border-right: 1px solid #FFFFFF;
+        }
+      }
+      .td_0 {
+        width: 64px;
+      }
+      .td_1 {
+        width: 150px;
+      }
+      .td_2 {
+        width: 132px;
+      }
+      .td_3 {
+        width: 238px;
+      }
+      .td_4 {
+        width: 112px;
+      }
+      .td_5 {
+        width: 145px;
+      }
+      .td_6 {
+        width: 155px;
+      }
+      .td_7 {
+        width: 225px;
+      }
+    }
+    tbody {
+      tr {
+        color: #1A1A1A;
+        &:nth-child( even ) {
+          background-color: #F1F1F1;
+        }
+        &:nth-child( odd ) {
+          background-color: #FBFBFB;
+        }
+        &:not(:last-child) {
+          border-right: 1px solid #FFFFFF;
+        }
+      }
+    }
+
+
+  }
+}
+
+.footer_users {
+  display: flex;
+  background: #1C3B55;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+  font-size: 16px;
+  color: #FFFFFF;
+
+  .logo {
+    padding-left: 130px;
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .copyright {
+    padding-right: 130px;
+  }
+}

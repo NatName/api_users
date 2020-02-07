@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&display=swap');
+
+* {
+  font-family: Montserrat;
+}
+
+.container {
+  width: 590px;
+  margin-left: 10%;
+  text-align: left;
+}
+.home {
+  position: relative;
+  text-align: center;
+}
+header {
+  color: #FFFFFF;
+  background: url("../img/header_bg.svg") bottom no-repeat;
+  background-size: cover;
+  height: 655px;
+  padding: 25px;
+  position: relative;
+
+  .logo {
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-bottom: 25px;
+  }
+
+  .title {
+    .bold {
+      font-weight: bold;
+    }
+    font-weight: normal;
+    font-size: 48px;
+  }
+  .text {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  button {
+    font-size: 16px;
+    color: #3A80BA;
+    text-align: center;
+    padding: 15px 35px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .phone {
+    position: absolute;
+    width: 350px;
+    height: 580px;
+    background-image: url("../img/mobile.png");
+    left: 60%;
+    top: 15%;
+  }
+
+}
+.about {
+  margin-bottom: 40px;
+  h2 {
+    margin: 24px 430px ;
+    width:580px;
+    .bold {
+      font-weight: bold;
+    }
+    font-weight: normal;
+    font-size: 32px;
+  }
+  p {
+    margin: 24px 430px;
+    width:570px;
+  }
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  .card {
+    width:  380px;
+    height: 320px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;
+
+    .card-header {
+      font-size: 24px;
+      font-weight: 600;
+      color: #1A1A1A;
+    }
+
+    img {
+      margin-top: 48px;
+    }
+
+    p {
+      font-size: 16px;
+      color: #7E7E7E;
+    }
+  }
+}
+
+.managing {
+  margin-top: 80px;
+  color: #FFFFFF;
+  background: linear-gradient(93.19deg, #255D8B 2.29%, #3A80BA 96.79%);
+  height: 400px;
+  padding: 25px;
+  position: relative;
+  padding-top: 40px;
+    button {
+      font-size: 16px;
+      color: #3A80BA;
+      padding: 15px 35px;
+      background: #FFFFFF;
+      border: none;
+      border-radius: 10px;
+
+    }
+    h2 {
+      width: 580px;
+      font-weight: normal;
+      font-size: 32px;
+    }
+    p {
+      width: 580px;
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+    .notebook {
+      position: absolute;
+      width: 690px;
+      height: 460px;
+      background-image: url("../img/macbook.png");
+      left: 50%;
+      top: -6.8%;
+    }
+}
+
+.pricing {
+  margin-top: 45px;
+  h2 {
+    margin: 24px 430px;
+    width:580px;
+    .bold {
+      font-weight: bold;
+    }
+    font-weight: normal;
+    font-size: 32px;
+  }
+  p {
+    margin: 24px 390px;
+    width:665px;
+  }
+}
+
+.pay-container {
+  display: flex;
+  justify-content: center;
+  .card {
+    width:  380px;
+    height: 630px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;
+
+    .card-header {
+      margin-top: 32px;
+      font-size: 24px;
+      font-weight: 600;
+      color: #1A1A1A;
+    }
+
+    img {
+      margin-top: 48px;
+    }
+
+    p {
+      font-size: 16px;
+      color: #7E7E7E;
+      margin: 24px 80px;
+    }
+    button {
+      padding: 15px 20px;
+      background: #3A80BA;
+      border: none;
+      border-radius: 10px;
+      color: #FFFFFF;
+    }
+    .price {
+      font-size: 48px;
+      margin: 15px 145px;
+    }
+    .price-standart {
+      color: #3A80BA;
+    }
+  }
+}
+
+.contact {
+  p {
+    font-size: 20px;
+    color: #7E7E7E;
+    margin: 32px 390px;
+    .bold {
+      color: #3A80BA;
+    }
+  }
+}
+
+footer {
+  background: url("../img/footer_bg.svg")  no-repeat;
+  background-size: cover;
+  height: 185px;
+  position: relative;
+
+  input {
+    background-color: #FFF;
+    width: 580px;
+    height: 65px;
+    border: 1px solid #F1F1F1;
+    border-radius: 10px;
+    color: #B9B9B9;
+    padding: 15px;
+  }
+
+  button {
+    width: 175px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3A80BA;
+    text-align: center;
+    color: #FFF;
+    font-size: 16px;
+    margin-left: -175px;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #FFFFFF;
+
+
+
+    .logo {
+      font-size: 32px;
+    }
+  }
+}
